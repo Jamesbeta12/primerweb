@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Formulario Cafetero</title>
+</head>
+<body>
+    <header>
+    <main>
+    <section class="Formulario">
+        <form>
+            <div class="formulario">
+            <h1>Formulario</h1>
+            <label class="clases1" for="nombre">Nombre:*</label>
+            <input class="clases" type="text" id = "nombre" placeholder="Escribe Tu nombre">
+            <label class="clases1" for="apellido" >Apellido:* </label>
+            <input class="clases" type="text" id = "apellido" placeholder="Escribe Tu Apellido" required>
+            <label class="clases1" for="Edad">Edad:* </label>
+            <input class="clases" type="number" id = "edad" placeholder="Escribe Tu Edad" max="100" min="1">
+            <label class="clases1" for="Edad">Correo Electrónico:* </label>
+            <input class="clases" type="text" id = "email" placeholder="Escribe Tu Correo" required>
+            <label class="clases1" for="password">Contraseña:*</label>
+            <input class="clases" type="password" id = "password" placeholder="contraseña" required>
+            <label class="clases1" for="date">Fecha:*</label>
+            <input class="clases" type="date" id = "date" required>
+        
+            <div >
+                <input type="checkbox" name="pc" id="PC">
+                <label class="clases2" for="PC">PC</label>
+                <input id="mensaje" type="checkbox" name="celular" id="Celular">
+                <label class="clases2" for="Celular">Celular</label>
+            </div>
+            
+            <select id="mensaje" name="genero">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+            
+            <label class="clases1"  for="mensaje">recomedaciones:</label>
+                <textarea rows="5" cols="20" id="mensaje"></textarea>
+                
+                
+                <input class="enviar"  type="reset" value="Borra">
+                <input class="enviar" type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    </main>
+</header>
+</body>
+</html>
